@@ -1,0 +1,42 @@
+Item,Need,Want,Have,Price,Mark,Tanishq
+Cat tower,True,False,False,$0.00,False,False
+Litter Box,True,False,False,$0.00,False,False
+Cat food,True,False,False,$0.00,False,False
+Scratching post,True,False,False,$0.00,False,False
+Cat toys,True,False,False,$0.00,False,False
+Cat bed,True,False,False,$0.00,False,False
+Cat Shampoo / Cleaning,True,False,False,$0.00,False,False
+Wax Melter,False,False,True,$0.00,False,False
+Rice Cooker,False,False,True,$0.00,False,False
+Air Fryer,False,True,True,$0.00,False,False
+Plates,True,True,False,$0.00,False,False
+Cups,False,True,True,$0.00,False,False
+Silverware,True,False,False,$0.00,False,False
+Towels - Kitchen,True,False,False,$0.00,False,False
+Towels - Bathroom,True,False,False,$0.00,False,False
+Couch,False,True,False,$0.00,False,False
+Dish Soap,True,False,False,$0.00,False,False
+Hand Soap,True,False,False,$0.00,False,False
+Sponges,True,False,False,$0.00,False,False
+Lysol,True,False,False,$0.00,False,False
+Toilet Cleaner,True,False,False,$0.00,False,False
+Air Freshener,False,True,False,$0.00,False,False
+New Pans,True,False,False,$0.00,False,False
+Matress,True,False,False,$0.00,False,False
+Bed Frame,True,False,False,$0.00,False,False
+Mattress Protector,True,False,False,$0.00,False,False
+Sheets,True,False,False,$0.00,False,False
+Pots,True,False,False,$0.00,False,False
+Cutting Boards,True,False,False,$0.00,False,False
+Measuring Cups,True,False,False,$0.00,False,False
+Toaster,False,True,False,$0.00,False,False
+Bath Mats,True,False,False,$0.00,False,False
+Shower Organizer,True,False,False,$0.00,False,False
+Bathroom Trash Cans,True,False,False,$0.00,False,False
+Toilet Plunger,True,False,False,$0.00,False,False
+Hand Soap - Bathrooms,True,False,False,$0.00,False,False
+Bookshelf - My Room?,False,True,False,$0.00,False,False
+Coasters,False,True,False,$0.00,False,False
+TV Stand? or on Wall?,False,False,True,$0.00,False,False
+Vacuum,False,True,False,$0.00,False,False
+Desk Chair,False,True,True,$0.00,False,False
