@@ -2,7 +2,7 @@
 import csv
 
 input_file = 'ApartmentItems.csv'
-output_file = 'ApartmentItemsUpdated.csv'
+output_file = 'ApartmentItems_Updated.csv'
 
 with open(input_file, 'r') as file:
     reader = csv.reader(file)
@@ -18,7 +18,7 @@ for row in data:
     del row[want_index]
     del row[have_index]
 
-with open(output_file, 'w', newline='') as file:
+with open(output_file, 'w') as file:
     writer = csv.writer(file)
     writer.writerows(data)
 
