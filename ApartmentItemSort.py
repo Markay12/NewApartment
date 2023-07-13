@@ -1,8 +1,9 @@
+
 ## Python Item Sort for Apartment Moving
 # Broken into three categories: Need, Want, Have
 # Used to keep track of what we are bringing, what we want and need
 
-
+# import for the CSV file
 import csv
 
 def parse_data(filename):
@@ -13,17 +14,11 @@ def parse_data(filename):
         reader = csv.DictReader(file)
         for row in reader:
             item = row['Item']
-            need = row['Need']
-            want = row['Want']
-            have = row['Have']
             price = float(row['Price'].replace('$', ''))
             mark = row['Mark']
             tanishq = row['Tanishq']
 
             print(f"Item: {item}")
-            print(f"Need: {need}")
-            print(f"Want: {want}")
-            print(f"Have: {have}")
             print(f"Price: ${price:.2f}")
 
             if mark == 'True' and tanishq == 'False':
@@ -40,6 +35,5 @@ def parse_data(filename):
     print(f"Total Price (Tanishq): ${total_price_tanishq:.2f}")
 
 
-filename = 'ApartmentItems.csv'
+filename = 'ApartmentItemsUpdated.csv'
 parse_data(filename)
-
